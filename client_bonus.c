@@ -55,7 +55,7 @@ void	ft_send_str(int pid, char *str)
 				kill(pid, SIGUSR1);
 			else
 				kill(pid, SIGUSR2);
-			usleep(150);
+			usleep(200);
 			bitcount--;
 		}
 		i++;
